@@ -124,7 +124,7 @@ The main tasks for this exercise are as follows:
 
 > **Note**: While the cluster is being created, **go back and perform Exercise 1**.
 
-## Exercise 3: Read data with Azure Databricks
+## Exercise 2: Read data with Azure Databricks
 
 Estimated Time: 30 minutes
 
@@ -284,7 +284,7 @@ The main tasks for this exercise are as follows:
 
 >**Result** In this exercise, you have performed the necessary steps that setup up the permission for Azure Databricks to access data in an Azure Data Lake Store Gen2. You then used scala to connect up to a Data Lake Store and you read data and created a table output showing the preferences of people.
 
-## Exercise 4: Perform basic transformations with Azure Databricks
+## Exercise 3: Perform basic transformations with Azure Databricks
 
 Estimated Time: 10 minutes
 

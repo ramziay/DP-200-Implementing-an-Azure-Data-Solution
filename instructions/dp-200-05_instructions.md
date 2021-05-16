@@ -164,6 +164,7 @@ The main tasks for this exercise are as follows:
     - In the Basics details section, type in the following information
 
         - **Dedicated SQL pool name**: **DWDB**
+        - Assign DW400c for Performance Level
 
     - Leave all the other settings as default
 

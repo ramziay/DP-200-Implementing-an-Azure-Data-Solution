@@ -15,7 +15,6 @@ The students will be able to provision an Azure SQL Database and Azure Synapse A
   
 After completing this lab, you will be able to:
 
-1. Use Azure SQL Database
 2. Describe Azure Synapse Analytics 
 3. Create and query Azure Synapse Analytics 
 4. Use PolyBase to load data into Azure Synapse Analytics 
@@ -35,64 +34,9 @@ At the end of this lad, you will have:
 
 > **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
 
-## Exercise 1: Use Azure SQL Database
 
-Estimated Time: 15 minutes
 
-Individual exercise
-  
-The main task for this exercise are as follows:
-
-1. Create and configure a SQL Database instance.
-
-### Task 1: Create and configure a SQL Database instance.
-
-1. In the Azure portal, navigate to the **+ Create a resource** blade.
-
-2. In the New screen, click the **Search the Marketplace** text box, and type the word **SQL Database**. Click **SQL Database** in the list that appears.
-
-3. In the **SQL Database** screen, click **Create**.
-
-4. From the **Create SQL Database** screen, create an Azure SQL Database with the following settings:
-
-    - In the Project details section, type in the following information
-    
-        - **Subscription**: the name of the subscription you are using in this lab
-
-        - **Resource group**: **awrgstudxx**, where **xx** are your initials.
-
-    - Click on the  **Additional setting** tab, click **Sample** . The AdventureworksLT sample database is selected automatically. 
-    
-    - Click the **Basics** tab once this has been done.
-    
-    - In the Database details section, type in the following information
-    
-        - Database name: type in **AdventureworksLT**
-     
-        - Server: Create a new server by clicking **Create new** with the following settings and click on **OK**:
-            - **Server name**: **sqlservicexx**, where **xx** are your initials
-            - **Server admin login**: **xxsqladmin**, where **xx** are your initials
-            - **Password**: **Pa55w.rd**
-            - **Confirm Password**: **Pa55w.rd**
-            - **Location**: choose a **location** near to you.
-            - click on **OK**
-
-                ![Creating a server instance in the Azure portal](Linked_Image_Files/M05-E01-T01-img1.png)
-
-            - Leave the remaining settings to their defaults, and then click on **OK**
-            
-
-    ![Creating a SQL Database in the Azure portal](Linked_Image_Files/M05-E01-T01-img02.png)
-
-5. In the **Create SQL Database** blade, click **Review + create**.
-
-6. After the validation of the **Create SQL Database*** blade, click **Create**.
-
-   > **Note**: The provision will takes approximately 4 minutes.
-
-> **Result**: After you completed this exercise, you have an Azure SQL Database instance
-
-## Exercise 2: Describe Azure Synapse Analytics
+## Exercise 1: Describe Azure Synapse Analytics
   
 Estimated Time: 15 minutes
 
@@ -190,7 +134,7 @@ The main tasks for this exercise are as follows:
 
 
 
-## Exercise 3: Creating an Azure Synapse Analytics database and tables
+## Exercise 2: Creating an Azure Synapse Analytics database and tables
 
 Estimated Time: 25 minutes
 
@@ -303,7 +247,7 @@ The main tasks for this exercise are as follows:
 
 > **Result**: After you completed this exercise, you have used Synapse Studio to create a data warehouse named DWDB and three tables named Users, Products and FactSales.
 
-## Exercise 4: Using PolyBase to Load Data into Azure Synapse Analytics 
+## Exercise 3: Using PolyBase to Load Data into Azure Synapse Analytics 
 
 Estimated Time: 10 minutes
 

@@ -97,6 +97,7 @@ The main tasks for this exercise are as follows:
 
 8.. In the **basics** page of **Create dedicated SQL pool** blade configure the following settings:
         - Dedicated SQL pool name: **dedsqlxx**, where **xx** are your initials
+        - Choose DW400c a Performance level
         - Leave all the other settings per default
 
 9. In the **Create dedicated SQL pool** screen, click **Review + create**.

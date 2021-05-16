@@ -15,10 +15,9 @@ By the end of this lab the student will be able to explain why Azure Databricks 
   
 After completing this lab, you will be able to:
 
-1. Explain Azure Databricks
-2. Work with Azure Databricks
-3. Read data with Azure Databricks
-4. Perform transformations with Azure Databricks
+1. Work with Azure Databricks
+2. Read data with Azure Databricks
+3. Perform transformations with Azure Databricks
 
 ## Scenario
   
@@ -28,40 +27,13 @@ You will stand up and provision an Azure Databricks environment, and then test t
 
 At the end of this lad, you will have:
 
-1. Explained Azure Databricks
-2. Worked with Azure Databricks
-3. Read data with Azure Databricks
-4. Performed transformations with Azure Databricks
+1. Worked with Azure Databricks
+2. Read data with Azure Databricks
+3. Performed transformations with Azure Databricks
 
-> **IMPORTANT**: As you go through this lab, make a note of any issue(s) that you have encountered in any provisioning or configuration tasks and log it in the table in the document located at _\Labfiles\DP-200-Issues-Doc.docx_. Document the Lab number, note the technology, Describe the issue, and what was the resolution. Save this document as you will refer back to it in a later module.
 
-## Exercise 1: Explain Azure Databricks
 
->**Important**: Perform **exercise 2 first**, and return to exercise 1 after starting the creation of a Databricks Cluster in exercise 2, as it will take 10 minutes to provision.
-
-Estimated Time: 15 minutes
-
-Individual exercise
-  
-The main task for this exercise are as follows:
-
-1. From the content you have learned in this course so far, identify the digital transformation requirement that Azure Databricks will meet and a candidate data source for Azure Databricks.
-
-2. The instructor will discuss the findings with the group.
-
-### Task 1: Define the digital transformation and candidate data source.
-
-1. From the lab virtual machine, start **Microsoft Word**, and open up the file **DP-200-Lab03-Ex01.docx** from the **Allfiles\Labfiles\Starter\DP-200.3** folder.
-
-2. Spend **10 minutes** documenting the digital transformation requirement and candidate data source as outlined in the case study and the scenario of this lab.
-
-### Task 2: Discuss the findings with the Instructor
-
-1. The instructor will stop the group to discuss the findings.
-
-> **Result**: After you completed this exercise, you have created a Microsoft Word document that identifies the digital transformation requirement that Azure Databricks will meet and a candidate data source.
-
-## Exercise 2: Work with Azure Databricks
+## Exercise 1: Work with Azure Databricks
   
 Estimated Time: 20 minutes
 
@@ -418,36 +390,5 @@ Follow the instructions within the notebook, until you've completed the entire n
 - **06-Corrupt-Record-Handling** - This notebook lists the exercises that help you understand how to create ADLS and use Databricks DataFrames to query and analyze this data.
 - **07-Loading-Data-and-Productionalizing** - Here you use Databricks to query and analyze data stores in Azure Data Lake Storage Gen2.
 - **Parsing-Nested-Data** - This notebook is located in the Optional subfolder, and includes a sample project for you explore later on in your own time.
-
->[Note] You'll find corresponding notebooks within the Solutions subfolder. These contain completed cells for exercises that ask you to complete one or more challenges. Refer to these if you get stuck or simply want to see the solution.
-
-**Advanced transformations**
-
-1. Within the Workspace, using the command bar on the left, select **Workspace**, **Users**, and select **your username** (the entry with house icon).
-
-2. In the blade that appears, select the **downwards pointing chevron next to your name**, and select **Import**.
-
-3. On the Import Notebooks dialog, select **URL below** and paste in the following URL: 
-
-```url
-    https://github.com/MicrosoftDocs/mslearn-perform-advanced-data-transformation-in-azure-databricks/blob/master/DBC/05.2-Advanced-ETL.dbc?raw=true
-```
-
-4. Select **Import**.
-
-5. A folder named **05.2-Advanced-ETL** after the import should appear. Select that folder.
-
-6. The folder will contain one or more notebooks that you can use to learn basic transformations using **scala** or **python**.
-
-Follow the instructions within the notebook, until you've completed the entire notebook. Then continue with the remaining notebooks in order:
-
-- **01-Course-Overview-and-Setup** - This notebook gets you started with your Databricks workspace.
-- **02-Common-Transformations** - In this notebook you perform some common data transformation using Spark built-in functions.
-- **03-User-Defined-Functions** - In this notebook you perform custom transformation using user-defined functions.
-- **04-Advanced-UDFs** - In this notebook you use advanced user-defined functions to perform some complex data transformations.
-- **05-Joins-and-Lookup-Tables** - In this notebook you learn how to use standard and broadcast join for tables.
-- **06-Database-Writes** - This notebook contains exercises to write data to a number of target databases in parallel, storing the transformed data from your ETL job.
-- **07-Table-Management** - Here you handle managed and unmanaged tables to optimize your data storage.
-- **Custom-Transformations** - This notebook is located in the Optional subfolder, and includes a sample project for you to explore later on in your own time.
 
 >[Note] You'll find corresponding notebooks within the Solutions subfolder. These contain completed cells for exercises that ask you to complete one or more challenges. Refer to these if you get stuck or simply want to see the solution.

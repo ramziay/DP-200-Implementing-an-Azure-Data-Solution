@@ -106,8 +106,6 @@ The main tasks for this exercise are as follows:
 
     - **Databricks Runtime Version**: **Runtime: 8.2 (Scala 2.12, Spark 3.1.1)**
     
-    - **Python version**: **2**
-
     - Make sure you select the **Terminate after 30** minutes of inactivity check box. If the cluster isn't being used, provide a duration (in minutes) to terminate the cluster.
 
     - **Min Workers**: **1**

@@ -108,7 +108,7 @@ The main tasks for this exercise are as follows:
     
     - **Python version**: **2**
 
-    - Make sure you select the **Terminate after 60** minutes of inactivity check box. If the cluster isn't being used, provide a duration (in minutes) to terminate the cluster.
+    - Make sure you select the **Terminate after 30** minutes of inactivity check box. If the cluster isn't being used, provide a duration (in minutes) to terminate the cluster.
 
     - **Min Workers**: **1**
 

@@ -104,7 +104,7 @@ The main tasks for this exercise are as follows:
 
     - **Pool**: **None**
 
-    - **Databricks Runtime Version**: **Runtime: 7.4 (Scala 2.12, Spark 3.0.1)**
+    - **Databricks Runtime Version**: **Runtime: 8.2 (Scala 2.12, Spark 3.1.1)**
     
     - **Python version**: **2**
 
